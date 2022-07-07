@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
+        
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">Project</a>
+    <a href="resume.pdf">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  </div>
+</div>
+<img id="uva" src="uva.png" />
+
+<div id= "Education">
+<p style="font-family:Impact; color: #9d6266;
+; font-size: 35px;">EDUCATION</p> </div>
+<div id ="info">
+<p style="font-family:DejaVu Sans Mono; color: black;
+; font-size: 20px;"><b>University of Virginia,</b> School of Engineering and Applied Science.<br><br>
+Sophomore majoring in <b>Computer Science</b><br><br><b>Rodman Scholar</b> (honors program for the School of Engineering, awarded to top 5% of each entering class.)</p>
+</div>
+      <div id="content">
+        <h1>Nujha <br> Bhuiyan</h1>
+          <img id="image3" src="back.jpg" />
+          <img id="image2" src="patternn.jpg" />
+          <img id="image1" src="me.jpg" />
+      </div>
+      <p><span id="spin"></span></p>
+      <div id = "email"><a href="mailto:nujhabarobhuiyan@gmail.com"><i class="fa fa-envelope-o" style="font-size:36px; color:black"></i>
+   </a>
+      </div>
+      <div id = "github"><a href = "https://github.com/Nujhaaaa"><i class="fa fa-github" style="font-size:36px;color:black"></i>
+  
+      </a>
+      </div>
+      <div id = "linkedin"><a href = "https://www.linkedin.com/in/nujha-bhuiyan-02abb8216/"><i class="fa fa-linkedin-square" style="font-size:36px;color:black"></i>
+    </a>
+
+<h3>Zoom, hover, and click on the location markers to learn more about me!</h3>
+    <div id="map">
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN_Gsm0vVR_6Ain8En9ALcYvLUvqfW2do&callback=initMap&v=weekly"
+      defer
+    ></script>
   </body>
 </html>
+
