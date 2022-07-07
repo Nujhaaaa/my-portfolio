@@ -5,73 +5,274 @@
   }
   
   #greeting-container {
-    margin-top: 20px;
+    margin-top: 600px;
+    margin-left: 600px;
+    font-size: 30px;;
   }
-  
+ 
   
   h1 {
-    text-align: center;
-    font-size: 60px;
+    position: absolute;
+    left: 700px;
+    top: 180px;    
+    font-size: 70px;
     font-family: Lucida Handwriting;
-    color: #aa6f73;
+    color: #9d6266;
+  }
+   
+#image1{
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    width: 300px;
+    height: auto;
   }
   
-  .circle-image{
-    display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 400px;
-    height: 400px;
+  #image2{
     position: absolute;
-    left:50px;
+    left: 150px;
     top: 200px;
+    width: 350px;
+    height: auto;
   }
-  .circle-image img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
+  
+  #image3{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 280px;
+    height: 500px;
+    opacity: 0.5;
   }
+  
+  
+#Education{
+    position: absolute;
+    left: 550px;
+    font-size: 20px;
+      top: 750px;
+  }
+  #uva{
+    position:absolute;
+    left: 100px;
+    top: 780px;
+    width: 300px;
+    height: auto;
+  }
+  
+  #info{
+    position: absolute;
+    left:400px;
+      top: 850px;
+  }
+  
+
 
 #email{
    position: absolute;
-    left:160px;
+    left:280px;
     top: 620px;
 }
 
 
 #github{
    position: absolute;
-    left:230px;
+    left:350px;
     top: 620px;
 }
 
 #linkedin{
    position: absolute;
-    left:295px;
+    left:415px;
     top: 620px;
 }
 
+h3 {
+    position: absolute;
+    left: -200px;
+    top: 550px;    
+    font-size: 20px;
+    color: #865558;
+  }
 
-#resume{
-  font-size: 40px;
-  color: #8b4513;
-   position: relative;
-    left:450px;
-    top: -440px;
+#map {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 650px;
+    left: -200px;
+  }
+
+
+
+  #map-icon-label .map-icon {
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 48px;
+	text-align: center;
+	white-space: nowrap;
 }
+
 #me{
-  font-size: 40px;
-  color: #8b4513;
-   position: relative;
-    left:450px;
-    top: -440px;
-}
+    font-size: 40px;
+    color: #8b4513;
+     position: relative;
+      left:450px;
+      top: -440px;
+  }
+  
+  
+  #project{
+    font-size: 40px;
+    color: #8b4513;
+     position: relative;
+      left:450px;
+      top: -440px;
+  }
+  
+  #spin {
+    color:#604848;
+    position: absolute;
+      left: 720px;
+      top: 450px;    
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 3s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"Student"; }
+    50% { content:"Aspiring Software Engineer"; }
+  }
+  
+  /* The side navigation menu */
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #e8c2b5; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #272525;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #aboutme{
+    float: left;
+    width: 500px;
+    padding: 50px;
+  }
+  
+  #work{
+    position:absolute;
+    width: 350px;
+    height:auto;
+    top: 150px;
+    left: 700px;
+  }
+  
+  #gwc{
+    position:absolute;
+    width: 350px;
+    height:auto;
+    top: 600px;
+    left: 100px;
+  }
+  
+  .button1 {
+    background-color: #f5c7b8; 
+    color: black; 
+    border: 2px solid #ae694c;
+    padding: 15px 32px;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    left: 650px;
+  
+  }
+  
+  .button1:hover {
+    background-color: #957256;
+    color: white;
+  }
+  
+  #sch{
+    position:absolute;
+    top: 200px;
+    left: 150px;
+  }
+  
+  #minerva{
+    position: absolute;
+    top: 230px;
+    left: 500px;
+  }
+  
+  
+#Contact{
+    position:absolute;
+    top:100px;
+    left: 300px;
+  }
+  
+  #info1{
+    position:absolute;
+    top: 200px;
+    left: 300px;
+  }
 
 
-#project{
-  font-size: 40px;
-  color: #8b4513;
-   position: relative;
-    left:450px;
-    top: -440px;
-}
+  
+  #image4{
+    position:absolute;
+    top: -40px;
+    left: 300px;
+    width: 300px;
+    height: 450px;
+  }
+  
+  #address{
+     position:absolute;
+    top: -40px;
+    left: 320px;
+  }
